@@ -1,0 +1,6 @@
+{
+  "name": "Treinamento iGreen Energy",
+  "description": "Portal de treinamento e aprendizagem sobre a iGreen Energy, explicando seu funcionamento, benefícios e abordagens em stands de captação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

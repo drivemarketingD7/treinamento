@@ -1,0 +1,13 @@
+# Netlify Configuration File
+# This ensures Netlify automatically detects the correct build settings and output directory.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# If the user decides to implement React Router in the future,
+# this rule will redirect all traffic to index.html for client-side routing.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
